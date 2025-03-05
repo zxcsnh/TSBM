@@ -1,0 +1,42 @@
+{
+    "targetDB": "1",
+    "farms": 5,
+    "devices": 50,
+    "sensors": 50,
+    "Import":{
+        "isTest": true,
+        "threads": 8,
+        "counts": 400
+    },
+    "batchsize": 5,
+    "MultiThread": {
+        "isTest": true,
+        "maxfarms": 32
+    },
+    "BatchGrowth": {
+        "isTest": true,
+        "maxdevices": 300
+    },
+    "DataBase": {
+        "1": {
+            "name": "TDengine",
+            "classPath": "qdu.edu.cn.adapters.TdengineAdapter",
+            "ip": "127.0.0.1",
+            "port": "6030",
+            "username": "root",
+            "password": "taosdata"
+        },
+        "2": {
+            "name": "InfluxDB",
+            "classPath": "qdu.edu.cn.adapters.InfluxdbAdapter",
+            "ip": "127.0.0.1",
+            "port": "8086",
+            "username": "root",
+            "password": "root"
+        }
+    },
+    "monitor": {
+        "isOpen": true,
+        "delay": 1000
+    }
+  }

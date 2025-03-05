@@ -1,0 +1,165 @@
+2025-03-04 20:24:48.601 ERROR [main] qdu.edu.cn.core.MultiThreadTest - Unexpected error occurred during writeB execution.
+java.lang.ArithmeticException: / by zero
+	at qdu.edu.cn.core.MultiThreadTest.writeB(MultiThreadTest.java:190)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:35)
+	at qdu.edu.cn.Main.main(Main.java:15)
+2025-03-04 20:46:52.211 ERROR [main] qdu.edu.cn.utils.Write - Failed to write data to filejava.nio.file.NoSuchFileException: /home/neo/java/TSBM/result/TDengine2025-03-04-20:46:48.txt
+2025-03-05 20:00:53.882 ERROR [main] qdu.edu.cn.Main - Failed to read config file;java.io.FileNotFoundException: /home/neo/java/TSBMconfig.json (No such file or directory)
+2025-03-05 20:07:28.794 ERROR [main] qdu.edu.cn.core.BenchMark - Error initializing adapters
+java.lang.ClassNotFoundException: TDengine
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:25)
+	at qdu.edu.cn.Main.main(Main.java:41)
+2025-03-05 20:07:29.606 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:29.608 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:29.608 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:29.608 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:29.608 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:29.609 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:29.613 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:29.613 ERROR [main] qdu.edu.cn.core.ImportTest - Execution error during importData: 
+java.util.concurrent.ExecutionException: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at java.base/java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.base/java.util.concurrent.FutureTask.get(FutureTask.java:191)
+	at qdu.edu.cn.core.ImportTest.start(ImportTest.java:56)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:40)
+	at qdu.edu.cn.Main.main(Main.java:41)
+Caused by: java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.ImportTest.lambda$start$0(ImportTest.java:52)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:30.622 ERROR [main] qdu.edu.cn.core.BenchMark - Error initializing adapters
+java.lang.ClassNotFoundException: TDengine
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.Class.forName0(Native Method)
+	at java.base/java.lang.Class.forName(Class.java:421)
+	at java.base/java.lang.Class.forName(Class.java:412)
+	at qdu.edu.cn.core.BenchMark.startTest(BenchMark.java:54)
+	at qdu.edu.cn.Main.main(Main.java:41)
+2025-03-05 20:07:30.633 ERROR [pool-2-thread-1] qdu.edu.cn.core.MultiThreadTest - Error generating or inserting data for farm 1
+java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.MultiThreadTest.lambda$writeA$0(MultiThreadTest.java:45)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+2025-03-05 20:07:35.628 ERROR [pool-2-thread-2] qdu.edu.cn.core.MultiThreadTest - Error generating or inserting data for farm 1
+java.lang.NullPointerException: Cannot invoke "qdu.edu.cn.core.Adapter.insert(String)" because "adapter" is null
+	at qdu.edu.cn.core.MultiThreadTest.lambda$writeA$0(MultiThreadTest.java:45)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
