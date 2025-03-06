@@ -21,6 +21,7 @@ public class Main {
             String path = args[0];
             ObjectMapper objectMapper = new ObjectMapper();
             JsonConfig jsonConfig = objectMapper.readValue(new File(path+"/config.json"), JsonConfig.class);
+            Config.SUM = jsonConfig.getSum();
             Config.FARMS = jsonConfig.getFarms();
             Config.DEVICES = jsonConfig.getDevices();
             Config.SENSORS = jsonConfig.getSensors();

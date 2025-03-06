@@ -1,5 +1,6 @@
 {
     "targetDB": "1",
+    "sum": 1200,
     "farms": 5,
     "devices": 50,
     "sensors": 50,

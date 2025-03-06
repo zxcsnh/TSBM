@@ -9,9 +9,9 @@ public class Config {
     public static final long THREADSTARTB = 1736870400000L;  // 2025-01-15 00:00:00
     public static final long BATCHSTARTA = 1737475200000L;  // 2025-01-22 00:00:00
     public static final long BATCHSTARTB = 1738080000000L;  // 2025-01-29 00:00:00
-    public static final int SUM = 1200;
     public static final double MEAN = 20.0;
     public static final double STD_DEV = 5.0;
+    public static int SUM = 1200;
     public static int MAXFARMS = 32;
     public static int MAXDEVICES = 150;
     public static int BATCHSIZE = 5;
@@ -32,6 +32,9 @@ class JsonConfig {
 
     @JsonProperty("farms")
     private int farms;
+
+    @JsonProperty("sum")
+    private int sum;
 
     @JsonProperty("devices")
     private int devices;
@@ -72,6 +75,14 @@ class JsonConfig {
 
     public void setFarms(int farms) {
         this.farms = farms;
+    }
+
+    public int getSum() {
+        return sum;
+    }
+
+    public void setSum(int sum) {
+        this.sum = sum;
     }
 
     public int getDevices() {
